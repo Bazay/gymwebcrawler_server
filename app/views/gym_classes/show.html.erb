@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @gym_class.name %>
+</p>
+
+<p>
+  <strong>Start time:</strong>
+  <%= @gym_class.start_time %>
+</p>
+
+<p>
+  <strong>End time:</strong>
+  <%= @gym_class.end_time %>
+</p>
+
+<p>
+  <strong>Day:</strong>
+  <%= @gym_class.day %>
+</p>
+
+<%= link_to 'Edit', edit_gym_class_path(@gym_class) %> |
+<%= link_to 'Back', gym_classes_path %>
